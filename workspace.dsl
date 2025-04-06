@@ -13,14 +13,45 @@ workspace {
 		
 		systemContext ssMedpoint {
 			include *
-			autolayout lr
+			autolayout tb
 		}
 		
 		container ssMedpoint {
 			include *
-			autolayout lr
+			exclude cGlobal
+    		autolayout tb
+		}
+
+		component cMobile {
+			include *
+			autolayout tb
+		}
+
+		component cWeb {
+			include *
+			autolayout tb
+		}		
+
+		component cAuth {
+			include *
+			autolayout tb
 		}
 		
+		component cDatabase {
+			include *
+			autolayout tb
+		}
+
+		component cSearch {
+			include *
+			autolayout tb
+		}
+
+		component cGlobal {
+			include *
+			autolayout tb
+		}		
+
 		styles {
 			element "Element" {
 				color #ffffff

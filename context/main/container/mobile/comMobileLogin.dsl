@@ -1,7 +1,7 @@
-comMobileLogin = component "Mobile Login" {
+comMobileLogin = component "Mobile Login/Register" {
     technology "Flutter"
     tags "Screen"
-    description "Mobile Login screen."
+    description "Mobile Login/Register screen."
 
-    -> comBffMobileAuth "Login via Email"
+    -> comBffAuth "Login via Email and Register via form that must be filled."
 }

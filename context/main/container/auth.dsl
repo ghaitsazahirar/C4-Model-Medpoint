@@ -4,7 +4,8 @@ cAuth = container "Supabase Auth service" {
 
     comAuthEmailLogin = component "Auth Email Login" {
         description "Handle /login/email"
-        -> comDatabaseUserTable "Check if user's email exists"
-        -> ssExternalAuth "Initiate Username/Password auth flow"
+        -> comDatabase "matching databse for auth"
+        -> comDatabaseAdminTable "check if admin's role match"
+        -> comDatabaseUserTable "users auth"
     }
 }
