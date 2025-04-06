@@ -18,6 +18,9 @@ User story (C3)
 ![c3users](https://github.com/user-attachments/assets/376cf49a-af52-4b91-b53d-a43f43c60191)
 
 Code Diagram (C4)
+**Auth**
 ![auth](https://github.com/user-attachments/assets/8e0fd21a-322a-4fcb-b9f2-39d003360520)
+**Reservasi** 
 ![reservasi](https://github.com/user-attachments/assets/a12abd1a-371a-4341-be0e-4b7529ae314b)
+**Reservasi Management by Doctor**
 ![doctor](https://github.com/user-attachments/assets/33919c95-838d-43d9-9ea5-677ab41a19f6)
