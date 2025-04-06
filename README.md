@@ -1,5 +1,3 @@
-Berikut versi yang lebih rapi dan terstruktur dari README kamu — udah aku kasih heading, spasi, dan penamaan gambar yang lebih konsisten biar enak dibaca:
-
 ---
 
 # C4 Model – Medpoint
