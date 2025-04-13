@@ -18,23 +18,14 @@
 ---
 
 ### 🧩 Container (C2)
-![C2](https://github.com/user-attachments/assets/4ed2ece5-8e3e-4a28-b89b-c0d1aa2b2597)
+![structurizr-1-Container-001](https://github.com/user-attachments/assets/3f628ea4-558a-42cb-b0e2-de81a208449a)
 
 ---
 
 ### 👥 User Story (C3)
 
-#### - Admin Perspective
-![C3 - Admin](https://github.com/user-attachments/assets/a06457fe-8bc5-4008-9ac9-5f9cb34b7c4f)
-
-#### - Doctor Perspective
-![C3 - Doctor](https://github.com/user-attachments/assets/9df294f9-89e6-4f2d-8a4e-197219ce32d9)
-
-#### - General Flow
-![C3 - Flow](https://github.com/user-attachments/assets/c4901492-2ed7-4291-b725-4863537f1e2c)
-
-#### - Users Perspective
-![C3 - Users](https://github.com/user-attachments/assets/376cf49a-af52-4b91-b53d-a43f43c60191)
+#### - Users Login
+![structurizr-1-Dynamic-004](https://github.com/user-attachments/assets/222c0df0-3497-4d1f-8b3b-f9daef90e1cb)
 
 ---
 
