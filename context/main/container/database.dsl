@@ -7,7 +7,7 @@ cDatabase = container "Database" {
         description "Handle database"
         -> ssExternalAuth "Initiate Username/Password auth flow for admin"
         -> ssExternalMessaging "except notification or message after sucess auth for users"
-        -> comUsersSearch "asdsds"
+        -> ssExternalPayment "Integrates with third-party payment gateway to handle user transactions after reservation"
     }
 
     !include database

@@ -42,11 +42,6 @@ workspace {
 			autolayout tb
 		}
 
-		component cSearch {
-			include *
-			autolayout tb
-		}
-
 		component cGlobal {
 			include *
 			autolayout tb

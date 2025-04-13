@@ -44,11 +44,5 @@ dynamic cWeb {
     comBffAuth -> comRestUser "Fetch doctor profile"
     comRestUser -> comDatabaseAdminTable "Verify Doctor identity"
 
-    comWebMobile -> comGlobalA "Access Doctor Features"
-
-    comGlobalA -> comReservationManagement "Provide slots and approve reservations"
-    comGlobalA -> comNotificationManagement "Receive appointment or system notifications"
-    comGlobalA -> comEPrescription "Write and send prescriptions to patients"
-
     autolayout tb
 }

@@ -1,9 +1,5 @@
 ssMedpoint = softwareSystem "Medpoint System" {
     description "Online Reservation system"
-
-
-    //searching for users after auth
-    !include container/search.dsl
     
     // resource
     !include container/database.dsl

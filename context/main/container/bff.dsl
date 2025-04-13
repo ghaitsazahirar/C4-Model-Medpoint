@@ -1,4 +1,4 @@
-cBff = container "BFF for Mobile/Web" {
+cBff = container "BFF" {
     description "Backend to handle Mobile and Web related requests"
     technology "Raiden"
 
