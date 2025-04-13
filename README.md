@@ -32,13 +32,4 @@
 ### 💻 Code Diagram (C4)
 
 #### 🔐 Auth
-![Auth - C4](https://github.com/user-attachments/assets/8e0fd21a-322a-4fcb-b9f2-39d003360520)
-
-#### 📅 Reservation (User)
-![Reservation - C4](https://github.com/user-attachments/assets/a12abd1a-371a-4341-be0e-4b7529ae314b)
-
-#### 🩺 Reservation Management (Doctor)
-![Doctor - C4](https://github.com/user-attachments/assets/33919c95-838d-43d9-9ea5-677ab41a19f6)
-
-User story (C3)
-![c3users](https://github.com/user-attachments/assets/376cf49a-af52-4b91-b53d-a43f43c60191)
+![UsersAuth](https://github.com/user-attachments/assets/f828a040-fcb0-4e02-b37f-de9d241135a2)
