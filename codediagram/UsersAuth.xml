@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram name="Halaman-1" id="9fGs9Vn8Tkgkwx3WWf9k">
+    <mxGraphModel dx="2067" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-44" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="W_C2Z8PSOMMcqS_Pn6WL-7" target="W_C2Z8PSOMMcqS_Pn6WL-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6" y="293" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IfeLesjTS0Lp_pF2SfGt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W_C2Z8PSOMMcqS_Pn6WL-5" target="W_C2Z8PSOMMcqS_Pn6WL-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5.5" y="-15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&amp;nbsp;+ Web : (raiden, Go, React)&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-78.5" y="-146" width="168" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="W_C2Z8PSOMMcqS_Pn6WL-5" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-7" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;AuthRest&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 6px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;rest&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FindUserByName()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ GetUsers()&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-65.5" y="87" width="142" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="W_C2Z8PSOMMcqS_Pn6WL-7" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="W_C2Z8PSOMMcqS_Pn6WL-24" target="W_C2Z8PSOMMcqS_Pn6WL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-24" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;AuthHandler&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;handler&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Login()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-63" y="-21" width="137" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-25" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="W_C2Z8PSOMMcqS_Pn6WL-24" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-42" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;UsersModel&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;model&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&amp;nbsp; email, password_hash&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-80.25" y="188" width="171.5" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_C2Z8PSOMMcqS_Pn6WL-43" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="W_C2Z8PSOMMcqS_Pn6WL-42" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
