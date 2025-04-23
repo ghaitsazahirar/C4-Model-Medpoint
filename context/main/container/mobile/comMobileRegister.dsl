@@ -1,7 +1,7 @@
 comMobileRegister = component "Mobile Registration" {
     technology "Flutter"
     tags "Screen"
-    description "Mobile Auth Registration for User"
+    description "Mobile Registration for User"
 
-    -> comBffAuth "Register with Email, Pass, Username, Number Phone"
+    -> comBffMobileRegister "Register with Email, Pass, Username, Number Phone"
 }

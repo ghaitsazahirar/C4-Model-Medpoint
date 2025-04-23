@@ -8,4 +8,9 @@ cAuth = container "Supabase Auth service" {
         -> comDatabaseAdminTable "check if admin's role match"
         -> comDatabaseUserTable "users auth"
     }
+
+    comAuthEmailRegister = component "Auth Email Register" {
+        description "handle /register"
+        -> comDatabaseUserTable "Checking users existance"
+    }
 }

@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Halaman-1" id="TRrMCL_GU3QL8-fh7vmc">
+    <mxGraphModel dx="1665" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-2" target="LzVoeUTSzn5RJUpayyFS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-2" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-3" target="LzVoeUTSzn5RJUpayyFS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-3" value="LoginPage.tsx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-8" value="Calling Supabase Auth API&amp;nbsp;&lt;div&gt;POST /auth/v1/token?grant_type=password&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="340" width="256" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-13" target="LzVoeUTSzn5RJUpayyFS-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="636" y="760" />
+              <mxPoint x="636" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-13" target="LzVoeUTSzn5RJUpayyFS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-13" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="368" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-16" value="JIka sukses akan mendapatkan&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Validasi email &amp;amp; password&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Response: access_token + user info&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-18" value="JIka gagal, akan kembali dimuat ke LoginPage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="700" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-19" target="LzVoeUTSzn5RJUpayyFS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-19" value="handlelogin()&lt;div&gt;Supabase.auth.signInWithPassword()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="216" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.532;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-8" target="LzVoeUTSzn5RJUpayyFS-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-23" target="LzVoeUTSzn5RJUpayyFS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-23" value="[localStorage/sessionStorage]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="830" width="174" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LzVoeUTSzn5RJUpayyFS-25" target="LzVoeUTSzn5RJUpayyFS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-25" value="PrivateRoute.tsx" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="980" width="174" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LzVoeUTSzn5RJUpayyFS-27" value="DashboardPage.tsx" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1130" width="174" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

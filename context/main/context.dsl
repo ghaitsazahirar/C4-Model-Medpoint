@@ -3,16 +3,14 @@ ssMedpoint = softwareSystem "Medpoint System" {
     
     // resource
     !include container/database.dsl
-
-    //searching for users after auth
-    !include container/globalA.dsl
     
     // supabase
     !include container/auth.dsl
     !include container/rest.dsl
 
     // bff
-    !include container/bff.dsl
+    !include container/bffMobile.dsl
+    !include container/bffWeb.dsl
 
     // FE (mobile/web)
     !include container/mobile.dsl

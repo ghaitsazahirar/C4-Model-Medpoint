@@ -18,7 +18,6 @@ workspace {
 		
 		container ssMedpoint {
 			include *
-			exclude cGlobal
     		autolayout tb
 		}
 
@@ -40,12 +39,7 @@ workspace {
 		component cDatabase {
 			include *
 			autolayout tb
-		}
-
-		component cGlobal {
-			include *
-			autolayout tb
-		}		
+		}	
 
 		styles {
 			element "Element" {
