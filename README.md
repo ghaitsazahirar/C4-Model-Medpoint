@@ -10,26 +10,35 @@
 
 ---
 
-## 🧱 C4 Diagram
+## Diagram
 
-### 📌 Context (C1)
-![C1](https://github.com/user-attachments/assets/1c90615a-65f2-4fe2-878f-fd6e03a53952)
-
----
-
-### 🧩 Container (C2)
-![structurizr-1-Container-001](https://github.com/user-attachments/assets/3f628ea4-558a-42cb-b0e2-de81a208449a)
+### Context (C1)
+![structurizr-1-SystemContext-001](https://github.com/user-attachments/assets/e5bb320e-81e2-4738-9a5b-79091b1e21f3)
 
 ---
 
-### 👥 User Story (C3)
+### Container (C2)
+![structurizr-1-Container-001 (1)](https://github.com/user-attachments/assets/4d96b050-e671-482a-9c04-7ef08868485a)
+
+
+---
+
+### User Story (C3)
 
 #### - Users Login
-![structurizr-1-Dynamic-004](https://github.com/user-attachments/assets/222c0df0-3497-4d1f-8b3b-f9daef90e1cb)
+![structurizr-1-Dynamic-001](https://github.com/user-attachments/assets/d5486f47-77cd-4d8e-adae-64bb478fc3e6)
 
 ---
 
-### 💻 Code Diagram (C4)
+### Code Diagram (C4)
 
-#### 🔐 Auth
-![UsersAuth](https://github.com/user-attachments/assets/f828a040-fcb0-4e02-b37f-de9d241135a2)
+#### Login Patients
+![login_patients](https://github.com/user-attachments/assets/164fa49d-39ba-43d2-9cff-51a304a57a0a)
+
+#### Login Admin
+![login_admin](https://github.com/user-attachments/assets/f7de5522-ed7d-41ca-803f-6b700bdf6c6a)
+
+#### Doctor List from Patients
+![doctor_list](https://github.com/user-attachments/assets/ddcac3fe-d0c3-42d4-a2cd-8dddfa3cb587)
+
+
